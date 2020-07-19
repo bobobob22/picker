@@ -1,40 +1,40 @@
 {
-  "name": "picker",
-  "version": "0.1.0",
-  "private": true,
+  "name": "picker-bobobob",
+  "version": "1.1.1",
+  "description": "React picker",
+  "main": "./src/App.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "lodash": "^4.17.11",
+    "material-colors": "^1.2.1",
+    "prop-types": "^15.5.10",
+    "reactcss": "^1.2.0",
+    "tinycolor2": "^1.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "lodash": "^4.17.19",
     "lodash.debounce": "^4.0.8",
     "lodash.merge": "^4.6.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "reactcss": "^1.2.3",
     "tinycolor": "^0.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
   }
 }
