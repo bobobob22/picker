@@ -1,6 +1,6 @@
 {
   "name": "picker-bobobob",
-  "version": "1.1.1",
+  "version": "2.1.2",
   "description": "React picker",
   "main": "./src/App.js",
   "license": "MIT",
